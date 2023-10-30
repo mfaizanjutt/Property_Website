@@ -1,0 +1,141 @@
+.visas-main h2{
+    margin-top: 169px;
+    
+    color: #C11718;
+    
+    /* H1 Desktop B */
+    font-family: Poppins;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91.5%; /* 80.52px */
+    letter-spacing: -1.76px;
+    }
+.visas-main h5{
+    margin-top: 24px;
+    margin-bottom: 119px;
+    
+    color: var(--Lollyprop-Blue, #00083D);
+    
+    /* H3 Desktop B */
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 111.5%; /* 44.6px */
+    letter-spacing: -0.8px;
+    }
+
+    /*  */
+.visas-write h2{
+    margin-top: 56px;
+    margin-bottom: 9px;
+    color: var(--Lollyprop-Red, #C11718);
+
+/* H2 Desktop B */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 91.5%; /* 29.28px */
+text-transform: uppercase;
+}
+.visas-write h3{
+    margin-bottom: 150px;
+    color: var(--Lollyprop-Blue, #00083D);
+
+/* H3 Desktop B */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 111.5%; /* 44.6px */
+letter-spacing: -0.8px;
+}
+/* updown imggggggggg */
+
+.updown{
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.updown h2{
+    margin-top: 41px;
+    margin-bottom: 14px;
+    color: var(--Lollyprop-Red, #C11718);
+
+/* H2 Desktop B */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 91.5%; /* 29.28px */
+text-transform: uppercase;
+}
+.updown h3{
+    color: var(--Lollyprop-Blue, #00083D);
+
+/* H3 Desktop B */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 111.5%; /* 44.6px */
+letter-spacing: -0.8px;
+}
+.updown_right{
+    margin-top: 125px;
+}
+
+
+
+
+@media (max-width:1080px) {
+    .visas-main h2 {
+        font-size: 35px;
+    }
+    .visas-main h5 {
+        font-size: 35px;
+    }
+    
+}
+    
+    @media (max-width:584px) {
+        
+        .visas-main h2 {
+            font-size: 35px;
+        }
+        .visas-main h5 {
+            font-size: 35px;
+        }
+        
+    }
+    
+    
+    @media (max-width:512px) {
+        .visas-main h2 {
+            font-size: 35px;
+        }
+        .visas-main h5 {
+            font-size: 35px;
+        }
+        
+        
+    }
+    
+    @media (max-width:400px) {
+        .visas-main h2 {
+            font-size: 35px;
+        }
+        .visas-main h5 {
+            font-size: 35px;
+        }
+    }
+    
+        
+        
+        
+        
+        
+        
+    
+    

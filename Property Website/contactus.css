@@ -1,0 +1,208 @@
+.contact-outer{
+    background: var(--Lollyprop-Blue, #00083D);
+    background-size: cover;
+    padding-bottom: 23px;
+}
+
+.contact-main{
+    
+}
+.contact-main h2{
+margin-top: 131px;
+
+color: #C11718;
+
+/* H1 Desktop B */
+font-family: Poppins;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: 91.5%; /* 80.52px */
+letter-spacing: -1.76px;
+}
+.contact-main h5{
+margin-top: 14px;
+margin-bottom: 75px;
+
+color: var(--Lollyprop-Blue, #00083D);
+
+/* H3 Desktop B */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 111.5%; /* 44.6px */
+letter-spacing: -0.8px;
+}
+
+
+.contact-btn-outer{
+    display: inline-block;
+    padding: 10px 30px;
+border: 1px solid var(--Lollyprop-Red, #C11718);
+color: var(--Lollyprop-Red, #C11718);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: -0.48px;
+text-decoration: none;
+}
+
+
+/* button */
+
+
+
+
+.button-btn{
+    margin: 9px;
+    display: inline-block;
+}
+.button-btn2{
+    margin-bottom: 81px;
+}
+/* inputttttttttttt */
+
+.contact-input{
+    margin-top: 81px;
+    margin-bottom: 109px;
+}
+.input-content{
+    gap: 67px;
+}
+.c-input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #C11718;
+
+}
+.contact-all-font{
+    color: var(--body-on-dark, #CCCED8);
+
+/* H3 Desktop B */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 111.5%; /* 44.6px */
+letter-spacing: -0.8px;
+}
+/* contact-lastttttttttttttt */
+.contact-last{
+    margin-top: 11px;
+    margin-bottom: 261px;
+}
+
+.form-check{
+    display: flex;
+    gap: 18px;
+    margin-top: 38px;
+    margin-bottom: 24px;
+}
+.check{
+    width: 33px;
+height: 33px;
+flex-shrink: 0;
+background: var(--body-on-dark, #CCCED8);
+}
+.contact-last h3{
+    color: var(--Lollyprop-Blue, #00083D);
+
+/* H4 Tiny Desktop B */
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 18.2px */
+letter-spacing: 0.78px;
+}
+.form-check h2{
+    color: var(--Lollyprop-Blue, #00083D);
+
+/* H5 Desktop B */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 111.5%; /* 26.76px */
+letter-spacing: -0.48px;
+}
+.form-check span{
+    color: var(--Lollyprop-Red, #C11718);
+
+/* H5 Desktop B */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 111.5%;
+letter-spacing: -0.48px;
+}
+/*  1080 sy nechy work kry gi  */
+@media (max-width:1080px) {
+.contact-input{
+    width: 500px;
+}
+}
+
+@media (max-width:584px) {
+    
+    .contact-input{
+        width: 500px;
+    }
+    
+}
+
+
+@media (max-width:512px) {
+    
+    .contct-outer {
+        width: 400px;
+        
+        background: var(--Lollyprop-Blue, #00083D);
+        background-size: cover;
+    }
+
+    .contact-input{
+        width: 400px;
+        overflow: hidden;
+    }
+    .contact-main{
+        width: 400px;
+    }
+    .contact-main h2{
+        font-size: 20px;
+    }
+    .contact-main h5{
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width:400px) {
+    .contct-outer {
+        width: 400px;
+        
+    background: var(--Lollyprop-Blue, #00083D);
+    background-size: cover;
+}
+.contact-input{
+    width: 400px;
+    overflow: hidden;
+}
+.contact-main{
+    width: 400px;
+    }
+    .contact-main h2{
+        font-size: 20px;
+    }
+    .contact-main h5{
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    
+    
+}

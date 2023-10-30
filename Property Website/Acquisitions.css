@@ -1,0 +1,259 @@
+/* nav start */
+.Acquisitions-outer {
+    background: url('./images/Rectangle\ 138.png');
+    background-size: cover;
+
+}
+
+
+/* mainnnnnnnnnnnnn */
+
+.Acquisitions-main .main_heading div h2 {
+    margin-top: 154px;
+    color: var(--White, #FFF);
+
+/* H1 Desktop B */
+font-family: Poppins;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: 91.5%; /* 80.52px */
+letter-spacing: -1.76px;
+}
+
+.Acquisitions-subtitle {
+    margin-top: 26px;
+    margin-bottom: 177px;
+    display: flex;
+    width: 565px;
+    height: 119px;
+    padding: 10px 222px 15px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+
+    background: var(--Lollyprop-Red, #C11718);
+}
+
+.Acquisitions-subtitle h5 {
+    color: var(--White, #FFF);
+
+    /* H3 Desktop B */
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 111.5%; /* 44.6px */
+    letter-spacing: -0.8px;
+}
+
+/* travelllllllllllll */
+.ac-travel{
+    background: var(--Lollyprop-Blue, #00083D);
+    margin-top: 80px;
+}
+.ac-travel-carts{
+    justify-content: space-between;
+}
+.ac-travel-cart-content{
+    display: flex;
+width: 370px;
+height: 508px;
+padding: 60px 40px;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+flex-shrink: 0;
+}
+
+.ac-travel-cart-content img{
+margin-top: 10px;
+
+
+}
+.ac-travel-cart-content h4{
+margin: 32px 0;
+color: var(--White, #FFF);
+text-align: center;
+
+/* H3 Desktop B */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 111.5%; /* 44.6px */
+letter-spacing: -0.8px;
+}
+.ac-travel-cart-content p{
+margin-bottom: 60px;
+
+color: var(--White, #FFF);
+text-align: center;
+
+/* Body Desktop B */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 139%; /* 25.02px */
+letter-spacing: -0.36px;
+}
+
+/* uniqueeeeeeeeeee */
+.ac-unique {
+    margin-top: 150px;
+}
+.ac-unique-content{
+    display: flex;
+    gap: 67 px;
+    align-items: center;
+
+}
+.ac-unique-process-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* img{
+    max-width: 100%;
+} */
+.ac-unique-process-content h2{
+    color: var(--Lollyprop-Red, #C11718);
+
+/* H2 Desktop B */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 91.5%; /* 29.28px */
+text-transform: uppercase;
+}
+.ac-unique-process-content h4{
+    margin: 40px 0;
+    color: var(--Lollyprop-Blue, #00083D);
+
+    /* H3 Desktop B */
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 111.5%; /* 44.6px */
+    letter-spacing: -0.8px;
+}
+.ac-unique-process-content h3{
+
+    color: #000;
+
+    /* Body Desktop B */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139%; /* 25.02px */
+    letter-spacing: -0.36px;
+}
+
+
+/* viewwwwwwwwwwwww */
+.ac-view{
+    margin-top: 60px;
+    margin-bottom: 69px;
+}
+
+.ac-view-content{
+    gap: 60px;
+    padding: 102px 0;
+}
+.ac-view-content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ac-view-content2 h2{
+    color: var(--Lollyprop-Blue, #00083D);
+
+    /* H3 Desktop B */
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 111.5%; /* 44.6px */
+    letter-spacing: -0.8px;
+}
+.ac-view-content2 h3{
+    margin-top: 18px;
+    color: #000;
+
+    /* Body Desktop B */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139%; /* 25.02px */
+    letter-spacing: -0.36px;
+}
+.ac-p-btn2{
+    margin-top: 43px;
+    display: flex;
+width: 203.24px;
+padding: 16px 32px;
+align-items: center;
+gap: 17px;
+background: transparent;
+
+border: 2px solid var(--Lollyprop-Red, #C11718);
+}
+.ac-view-content2 a{
+    color: var(--Lollyprop-Red, #C11718);
+font-family: Poppins;
+font-size: 11px;
+font-style: normal;
+font-weight: 800;
+line-height: 120%; /* 19.2px */
+text-transform: uppercase;
+text-decoration: none;
+}
+
+
+
+
+
+/*  1080 sy nechy work kry gi  */
+@media (max-width:1080px) {
+
+}
+
+@media (max-width:584px) {
+    .Acquisitions-subtitle{
+     width: 500px;
+    }
+    .Acquisitions-subtitle h5{
+        font-size: 30px;
+    }
+    
+}
+
+
+@media (max-width:512px) {
+    .project-outer {
+        width: 500px;
+    }
+   .Acquisitions-subtitle{
+    width: 500px;
+   }
+   
+}
+
+@media (max-width:400px) {
+    .project-outer {
+        width: 500px;
+    }
+    .Acquisitions-subtitle{
+     width: 500px;
+    }
+    
+    
+    
+    
+    
+}

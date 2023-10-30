@@ -1,0 +1,182 @@
+
+/* nav start */
+.about-outer {
+    background: url('./images/lauren-about\ pic\ 1.png');
+    background-size: cover;
+}
+
+
+/* mainnnnnnnnnnnnn */
+
+.about-main .main_heading div h2 {
+    margin-top: 142px;color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91%; /* 80.08px */
+    letter-spacing: -1.76px;
+
+}
+
+.about-subtitle {
+    margin-top: 33px;
+    margin-bottom: 161px;
+    display: inline-flex;
+    height: 133px;
+    padding: 10px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+
+    background: var(--lollyprop-red-dark-sections, #CC1819);}
+
+.about-subtitle h5 {
+    color: var(--White, #FFF);
+
+/* H3 Desktop B */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 111.5%; /* 44.6px */
+letter-spacing: -0.8px;
+}
+
+
+
+/* processsssssssssssss */
+.unique {
+    margin-top: 192px;
+}
+.unique-content{
+    display: flex;
+    gap: 81px;
+    align-items: center;
+}
+.unique-process-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+}
+.unique-process-content h2{
+    color: var(--Lollyprop-Red, #C11718);
+
+/* H3 Desktop B */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 111.5%; /* 44.6px */
+letter-spacing: -0.8px;
+}
+.unique-process-content h3{
+    margin-top: 32px;
+
+    color: var(--Lollyprop-Blue, #00083D);
+
+/* Body Desktop B */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 139%; /* 25.02px */
+letter-spacing: -0.36px;
+}
+
+/* rectangle-98 */
+.rectangle-98{
+    margin-top: 150px;
+}
+
+/* resultttttttt */
+.result{
+    margin-top: 212px;
+
+}
+.persons{
+padding: 62px 0px;
+/* align-items: center; */
+
+background: var(--Lollyprop-Blue, #00083D);
+opacity: 0.7;
+}
+.result-content{
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.result-content h2{
+    color: var(--White, #FFF);
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 111.5%; /* 44.6px */
+letter-spacing: -0.8px;
+}
+.result-content h3{
+    color: var(--White, #FFF);
+
+/* H4 Desktop b */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 38.4px */
+letter-spacing: -0.32px;
+}
+
+ /* delivering resultsssssssss */
+ .delivering{
+    margin-top: 156px;
+ }
+
+ .delivering-content{
+    gap: 132px;
+    align-items: center;
+ }
+ img{
+    width: 100%;
+ }
+.delivering-box h4{
+    color: var(--Lollyprop-Red, #C11718);
+
+/* H3 Desktop B */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 111.5%; /* 44.6px */
+letter-spacing: -0.8px;
+}
+.delivering-box h5{
+    color: var(--Lollyprop-Blue, #00083D);
+
+/* Body Desktop B */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 139%; /* 25.02px */
+letter-spacing: -0.36px;
+}
+
+
+
+@media (max-width:512px) {
+    .about-outer{
+        width: 500px;
+    }
+    .result{
+        width: 500px;
+    }
+}
+
+@media (max-width:400px) {
+    .about-outer {
+        width: 500px;
+    }
+}
